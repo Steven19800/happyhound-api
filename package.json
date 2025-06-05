@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
-    "test": "jest",
+    "test": "ts-node src/tests/api.test.ts",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -25,7 +25,8 @@
     "express-rate-limit": "^7.5.0",
     "jsonwebtoken": "^9.0.2",
     "sqlite3": "^5.1.6",
-    "typeorm": "^0.3.17"
+    "typeorm": "^0.3.17",
+    "axios": "^1.6.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

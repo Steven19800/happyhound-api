@@ -6,6 +6,8 @@ channel = "stable-22_11"
 
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"
+PATH = "${env.PATH}:${env.HOME}/.npm-global/bin"
+npm_config_prefix = "${env.HOME}/.npm-global"
 
 [packager]
 language = "nodejs"
