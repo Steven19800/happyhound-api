@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: happyhound-api
+    env: node
+    buildCommand: npm install && npx tsc
+    startCommand: node dist/index.js
+    nodeVersion: 18.x 
