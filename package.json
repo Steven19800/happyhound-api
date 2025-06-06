@@ -2,9 +2,9 @@
   "name": "pet-services-marketplace",
   "version": "1.0.0",
   "description": "Pet Services Marketplace API",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
